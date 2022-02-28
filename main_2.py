@@ -1,5 +1,8 @@
 
 heroku buildpacks:set heroku/python
+cat runtime.txt
+python-3.10.2
+
 from fastapi import FastAPI
 from fastapi import Body
 
