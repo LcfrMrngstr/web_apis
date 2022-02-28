@@ -1,4 +1,5 @@
 
+heroku buildpacks:set heroku/python
 from fastapi import FastAPI
 from fastapi import Body
 
